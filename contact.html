@@ -5,46 +5,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mighty Ducks Hockey League</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
     <div class="flex-container">
-        <div style="display: flex;">
-            <figure style="margin-right: 0px;">
-                <img src="Logo_Mighty_ducks_01.png" alt="logo_mighty_ducks" height="200"
-                    style="display: block; margin-left: 50px;">
-                <img src="hockey_3.jpg" alt="imagen_hockey" height="200" style="display: block;">
+        <div>
+            <figure>
+                <div class="container-portada">
+                    <img id="portada" src="design1_image1.jpg" alt="hockey">
+                </div>
             </figure>
-            <div style="margin-left: 100px; margin-top: 50px;">
+            <div>
                 <header>
                     <h1>Mighty Ducks Hockey League</h1>
                 </header>
-
-                <nav>
-                    <a href="index.html">Home</a> |
-                    <a href="about.html">About MDHL</a> |
-                    <a href="contact.html">Contact</a>
-                </nav>
-
-                <ul class="list">
-                    <li style="margin-bottom: 5px;">
-                        Please email us at <a href="mdhl@hockeyclub.org">mdhl@hockeyclub.org</a>
-                    </li>
-                    <li>
-                        We reply to your email as soon as we can.
-                    </li>
-                </ul>
+                <div class="main-content">
+                    <nav class="navbar">
+                        <a href="index.html">Home</a>
+                        <a href="about.html">About MDHL</a>
+                        <a href="contact.html">Contact</a>
+                    </nav>
+                    <img id="logo" src="Logo_Mighty_ducks_01.png" alt="logo_mighty_ducks">
+                    <ul class="list">
+                        <li style="margin-bottom: 30px;">
+                            Please email us at <a href="mdhl@hockeyclub.org">mdhl@hockeyclub.org</a>
+                        </li>
+                        <li>
+                            We reply to your email as soon as we can.
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
-
-    <!-- Estilos -->
-    <style>
-        .list {
-            list-style: none;
-        }
-    </style>
-
 </body>
 
 </html>
