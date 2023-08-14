@@ -1,36 +1,27 @@
-.list {
+* {
+    box-sizing: border-box;
+}
+
+header {
+    width: 1200px;
+    margin-left: 140px;
+    margin-bottom: 0px;
+    height: 40px;
+    display: inline-block;
+    margin-top: 40px;
+    margin-bottom: 0px;
+    
+}
+
+#titulo_principal {
+    display: inline-block;
+    margin: 0;
+}
+
+.upcoming_events {
     list-style: none;
     margin-left: 50px;
-    /* max-width: 1700px; */
     padding-right: 200px;
-    margin-top: 50px;
-
-
-}
-
-#logo {
-    height: 200px;
-    display: block;
-    margin-left: auto;
-    order: 2;
-    margin-top: 0px;
-}
-
-.navbar {
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-    margin-top: 60px;
-    margin-left: 140px;
-
-}
-
-.flex-container {
-    flex-direction: row;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    justify-content: flex-start;
 }
 
 .container-portada {
@@ -38,8 +29,13 @@
     height: 300px;
     border: 1px solid black;
     overflow: hidden;
-    margin-top: 20px;
+    margin-top: 0px;
     margin-left: 100px;
+}
+
+.container-portada2 {
+    margin-top: 0;
+    margin-bottom: 0px;
 }
 
 #portada {
@@ -49,19 +45,98 @@
     object-position: center;
 }
 
+.fecha {
+    margin-bottom: 0px;
+}
+
+.descripcion {
+    margin-left: 20px;
+}
+
+#logo {
+    height: 150px;
+    position: absolute;
+    left: 900px;
+    top: -140px;
+    border: 3px solid gold;
+    background-color: black;
+}
+
+.schedule {
+    display: inline-block;
+    vertical-align: top;
+
+}
+
+.navbar {
+    display: inline-block;
+    height: 400px;
+    vertical-align: top;
+    margin-right: 100px;
+}
+
+.navbar>a {
+    display: block;
+    height: 80px;
+}
+
+h2 {
+    display: inline-block;
+    margin-top: 0px;
+
+}
+
+.contenido {
+    margin-left: 140px;
+    width: 1200px;
+    margin-right: 0px;
+    position: relative;
+    margin-top: 30px;
+}
+
 h1 {
+    text-align: center;
+}
+
+.titulo_about {
+    margin-bottom: 0px;
+}
+
+.descripcion_about {
+    margin-left: 20px;
+    width: 500px;
+    margin-top: 3px;
+}
+
+.about {
+    display: inline-block;
+    list-style: none;
+    margin-top: 0px;
+}
+
+.lista_contacto {
+    list-style: none;
+    display: inline-block;
+}
+
+.lista_contacto li {
+    margin-bottom: 30px;
+}
+
+.navbar_2 {
     display: none;
 }
 
-.main-content {
-    display: flex;
-    justify-content: space-between;
+.titulo2 {
+    display: none;
 }
 
-.schedule{
-   margin-top: 20px;
-    margin-left: 60px;
-
+.ubi_actual {
+    text-align: center;
+    border: 2px solid black;
+    width: 1200px;
+    margin-left: 140px;
+    margin-top: 0px;
+    background-color: silver;
+ 
 }
-
-

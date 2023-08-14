@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+}
+
+.contenido {
+    margin-left: 140px;
+    width: 1200px;
+    margin-right: 0px;
+    margin-top: 30px;
+}
+
+.navbar {
+    display: none;
+}
+
+.upcoming_events {
+    list-style: none;
+    margin-left: 50px;
+    padding-right: 200px;
+}
+
+.container-portada {
+    width: 1200px;
+    height: 300px;
+    border: 1px solid black;
+    overflow: hidden;
+    margin-left: 100px;
+}
+
+#portada {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+#titulo_principal {
+    display: inline-block;
+    margin: 0;
+}
+
+.navbar_2 {
+    display: inline-block;
+    position: absolute;
+    left: 985px;
+    top: 30px;
+}
+
+.navbar_2 button a {
+    text-decoration: none;
+    color: black;
+
+}
+
+button {
+    border-radius: 5px;
+}
+
+header {
+    width: 1200px;
+    margin-left: 140px;
+    margin-bottom: 0px;
+    height: 40px;
+    display: inline-block;
+    margin-top: 40px;
+    margin-bottom: 0px;
+    position: relative;
+}
+
+.container-portada2 {
+    margin-top: 0;
+    margin-bottom: 0px;
+}
+
+.titulo2 {
+    display: none;
+}
+
+.ubi_actual {
+    text-align: center;
+    border: 2px solid black;
+    width: 1200px;
+    margin-left: 140px;
+    margin-top: 0px;
+    background-color: silver;
+}
+
+#logo {
+    height: 200px;
+    display: inline-block;
+
+}
+
+.lista_contacto {
+    vertical-align: top;
+    display: inline-block;
+    list-style: none;
+
+}
+
+.schedule {
+    vertical-align: top;
+    display: inline-block;
+}
+
+.about {
+    vertical-align: top;
+    display: inline-block;
+    width: 800px;
+    list-style: none;
+}
+
+.descripcion {
+    margin-left: 20px;
+}
