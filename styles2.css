@@ -2,6 +2,22 @@ body {
     margin: 0px;
 }
 
+#contenedor-de-imagen {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+#contenedor-de-imagen::before {
+    content: "";
+    background-image: url('design1_image1.jpg');
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-size: cover;
+}
+
 header {
     width: 100vw;
     height: 15vh;
@@ -43,14 +59,6 @@ main {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-
-}
-
-#portada {
-    width: 100vw;
-    height: 100%;
-    object-fit: cover;
-    position: absolute;
 }
 
 #logo {
@@ -72,23 +80,14 @@ main {
     font: italic small-caps bold 3vh cursive;
 }
 
-.overlay {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(255, 255, 0, 0.614);
-
-}
 
 .schedule {
     position: relative;
-    z-index: 1;
     font-size: 3.5vh;
 }
 
 .about {
     position: relative;
-    z-index: 1;
     font-size: 3vh;
     width: 70%;
     list-style: none;
@@ -96,7 +95,6 @@ main {
 
 .lista_contacto {
     position: relative;
-    z-index: 1;
     font-size: 3vh;
     width: 70%;
     list-style: none;
@@ -112,7 +110,6 @@ main {
 
 .policies {
     position: relative;
-    z-index: 1;
     font-size: 2vh;
     width: 100%;
     height: 100%;
@@ -158,6 +155,10 @@ ul li ul li ul li {
 table {
     margin: 80px 80px 80px;
     border: 1px solid black;
+    width: 50%;
+    height: 30vh;
+    margin-top: 2vh;
+    margin-bottom: 0px;
 }
 
 tr {
@@ -176,17 +177,8 @@ tr {
     background-color: aquamarine;
 }
 
-table {
-    z-index: 1;
-    width: 60vw;
-    height: 30vh;
-    margin-top: 2vh;
-    margin-bottom: 0px;
-}
-
 h1,
 p {
-    z-index: 1;
     text-align: start;
     margin-bottom: 2px;
 }
@@ -194,39 +186,55 @@ p {
 .arribaTabla {
     display: flex;
     flex-direction: column;
-    width: 60vw;
+    width: 50%;
+    align-items: start;
 }
 
 .abajoTabla1 {
     display: flex;
     flex-direction: column;
-    z-index: 1;
     margin-top: 0vh;
     justify-content: start;
-    width: 60vw;
+    width: 50%;
     margin-bottom: 1vh;
 }
 
 .abajoTabla2 {
     display: flex;
     flex-direction: column;
-    z-index: 1;
     margin-top: 0vh;
     justify-content: start;
-    width: 60vw;
+    width: 50%;
 }
 
 .abajoTabla3 {
     display: flex;
     flex-direction: row;
-    z-index: 1;
     margin-top: 0vh;
     justify-content: space-between;
-    width: 60vw;
+    width: 50%;
 }
 
-.info{
-    font-size: 8vh;
-    margin-top: 0px;
-    margin-bottom: 10vh;
+#map1,
+#map2,
+#map3 {
+    border: 2px solid black;
+    width: 250px;
+    height: 170px;
+    margin-bottom: 20px;
+}
+
+.cuerpo {
+    display: flex;
+    background-color: rgba(244, 244, 9, 0.712);
+}
+
+
+.aside {
+    width: 400px;
+    margin-top: 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
 }
